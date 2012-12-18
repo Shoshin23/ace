@@ -34,6 +34,9 @@ define(function(require, exports, module) {
 
 require("ace/lib/fixoldbrowsers");
 require("ace/config").init();
+
+require("./ace_emmet");
+
 var env = {};
 
 var dom = require("ace/lib/dom");
